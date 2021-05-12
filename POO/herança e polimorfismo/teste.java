@@ -5,15 +5,15 @@ public class teste {
 	public static void main(String[] args) {
 		Cachorro cachorro = new Cachorro ("Emerson", 3);
 		cachorro.imprimir();
-		cachorro.emitirSom("Latindo");
+		cachorro.emitirSom();
 		
 		Cavalo cavalo = new Cavalo ("Sheila", 15);
 		cavalo.imprimir();
-		cavalo.emitirSom("Relinchando");
+		cavalo.emitirSom();
 		
 		Preguica preguica = new Preguica ("Patricia", 46);
 		preguica.imprimir();
-		preguica.emitirSom("Gritando");
+		preguica.emitirSom();
 	
 	}
 

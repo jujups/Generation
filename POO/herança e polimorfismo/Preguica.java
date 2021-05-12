@@ -14,4 +14,10 @@ public class Preguica extends Animais{
 	void imprimir () {
 		System.out.println("O(A)" + this.mostrarNome() + "tem" + this.mostrarIdade() + "aninhos");
 	}
+	
+	@Override
+	void emitirSom() {
+		System.out.println("aaaaaaaa");
+		
+	}
 }

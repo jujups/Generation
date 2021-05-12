@@ -15,4 +15,10 @@ public class Cavalo extends Animais {
 		System.out.println("O(A)" + this.mostrarNome() + "tem" + this.mostrarIdade() + "aninhos");
 	
 	}
+	@Override
+	void emitirSom() {
+		System.out.println("Irrinhó");
+		
+	}
 }
+

@@ -1,6 +1,6 @@
 package POO;
 
-public class Animais {
+public abstract class Animais {
 
 	private String nome;
 	private int idade; 
@@ -10,9 +10,8 @@ public class Animais {
 		this.idade = idade;
 	}
 
-	void emitirSom (String somAnimal) {
-		System.out.println("O(A)" + nome+ "está" +somAnimal);
-	}
+	abstract void emitirSom ();
+		
 	
 	String mostrarNome () {
 		return this.nome;
